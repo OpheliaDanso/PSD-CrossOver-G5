@@ -36,24 +36,26 @@ const Page8 = () => {
 
   return (
     <div className="flex items-center justify-center h-screen">
-      <div style={{ width: "80%" }} className="mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-4">Plant & Pot</h1>
+      <div style={{ width: "50%" }} className="mx-auto">
+        <h1 className="text-3xl font-italic text-center mb-4">Plant & Pot</h1>
         <a
           href="#"
           className="bg-green-500 text-white px-4 py-1 inline-block ml-2 absolute top-0 right-0"
           style={{
             backgroundColor: "#486138",
-            width: "80px",
-            height: "120px",
-            lineHeight: "180px",
+            width: "3remx",
+            height: "5rem",
+            lineHeight: "6rem",
             borderRadius: 0,
             textAlign: "center",
             verticalAlign: "bottom",
             bottom: 0,
             borderBottom: "2px solid white",
+            textDecoration: "underline",
+            textUnderlineOffset: "0.5rem",
           }}
         >
-          Shop
+          Shop <br />
         </a>
         <p className="text-lg text-center mb-8">
           Take one of these babies home
@@ -62,7 +64,10 @@ const Page8 = () => {
           <div className="flex flex-wrap">
             <div className="flex flex-wrap md:flex-nowrap">
               {plants.slice(0, 4).map((plant, index) => (
-                <div key={index} className="bg-white p-4 m-6 w-full ">
+                <div
+                  key={index}
+                  className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110"
+                >
                   <img
                     src={plant.image}
                     alt={plant.name}
@@ -81,7 +86,10 @@ const Page8 = () => {
             </div>
             <div className="flex flex-wrap md:flex-nowrap">
               {plants.slice(4).map((plant, index) => (
-                <div key={index} className="bg-white p-4 m-6 w-full  ">
+                <div
+                  key={index}
+                  className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110"
+                >
                   <img
                     src={plant.image}
                     alt={plant.name}
