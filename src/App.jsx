@@ -10,6 +10,7 @@ function App() {
       <PageOne />
       <PageTwo />
       <PageSix />
+      <ComponentSeven />
     </>
   );
 }
