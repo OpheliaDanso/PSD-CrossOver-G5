@@ -11,21 +11,21 @@ const ComponentSeven = () => {
           height: "100vh", // Set height to 100vh
         }}
       >
-        <div className="">
-          <div className="text-3xl font-main font-bold mb-4 text-white text-center flex justify-end content-center">
+        <div className="flex flex-col justify-center items-end h-screen text-end pr-12">
+          <div className="text-5xl font-main font-bold mb-8 text-white text-center">
             <h1>
               Keep your plants <br />
               healthy and happy
             </h1>
           </div>
           <div className="">
-            <h2 className="flex justify-end text-white text-3xl font-bold mb-4">
+            <h2 className="text-white text-3xl font-semibold mb-4">
               With these 7 tips
-            </h2>{" "}
-            {/* Fixed typo in "With these" */}
-            <p className="flex justify-end items-end text-white">
-              You never know what will change the way you care for your plants
-              forever
+            </h2>
+            <p className="text-white text-end text-3xl font-thin">
+              You never know what will change the way
+              <br />
+              you care for your plants forever.
             </p>
           </div>
         </div>
