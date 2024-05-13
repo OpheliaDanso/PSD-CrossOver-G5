@@ -1,4 +1,7 @@
 import "../roboto-font.css";
+import img0400 from "../assets/04-00_s.webp";
+import img0401 from "../assets/04-01_s.webp";
+import img0402 from "../assets/04-02_s.webp";
 
 const Page04 = () => {
   return (
@@ -18,13 +21,13 @@ const Page04 = () => {
       </div>
       <div className="flex flex-col sm:flex-row justify-start md:gap-x-4 lg:gap-x-8 w-full mt-4 2xl:px-40">
         <div className="w-full sm:w-full md:w-1/3 lg:w-full 2xl:w-4/5">
-          <img className="w-full" src="src/assets/04-00_s.webp" alt="Plant 1" />
+          <img className="w-full" src={img0400} alt="Plant 1" />
         </div>
         <div className="w-full sm:w-full md:w-1/3 lg:w-full 2xl:w-4/5">
-          <img className="w-full" src="src/assets/04-01_s.webp" alt="Plant 2" />
+          <img className="w-full" src={img0401} alt="Plant 2" />
         </div>
         <div className="w-full sm:w-full md:w-1/3 lg:w-full 2xl:w-4/5">
-          <img className="w-full" src="src/assets/04-02_s.webp" alt="Plant 3" />
+          <img className="w-full" src={img0402} alt="Plant 3" />
         </div>
       </div>
     </div>
