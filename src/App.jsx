@@ -1,5 +1,6 @@
-import PageOne from "./Components/One";
+import PageOne from "./Components/PageOne";
 import PageTwo from "./Components/PageTwo";
+import Page03 from "./Components/Page03";
 import Page04 from "./Components/Page04";
 import Page05 from "./Components/Page05";
 import PageSix from "./Components/Page06";
@@ -12,6 +13,7 @@ function App() {
     <>
       <PageOne />
       <PageTwo />
+      <Page03 />
       <Page05 />
       <Page04 />
       <PageSix />
