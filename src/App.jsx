@@ -1,7 +1,9 @@
+import Page8 from "./Components/Page8";
+
 function App() {
   return (
     <>
-      <h1>hallo</h1>
+      <Page8 />
     </>
   );
 }
