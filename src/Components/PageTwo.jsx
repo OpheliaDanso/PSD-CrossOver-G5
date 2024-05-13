@@ -17,8 +17,8 @@ export default function PageTwo() {
       >
         <h1 className="text-8xl">Monstera</h1>
       </div>
-      <div className="grid grid-cols-4">
-        <h2 className="pl-10 text-4xl text-right">plant care</h2>
+      <div className="grid grid-cols-4 mb-10">
+        <h2 className=" text-4xl text-right">plant care</h2>
         <div>
           <h2 className="flex justify-center font-semibold pt-10">LIGHT</h2>
           <h3 className="flex justify-center">
