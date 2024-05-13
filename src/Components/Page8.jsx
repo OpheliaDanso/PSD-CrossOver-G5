@@ -55,7 +55,7 @@ const Page8 = () => {
         >
           Shop
         </a>
-        <p className="text-xl text-center mb-8">
+        <p className="text-lg text-center mb-8">
           Take one of these babies home
         </p>
         <div className="flex items-center justify-center mx-auto">
