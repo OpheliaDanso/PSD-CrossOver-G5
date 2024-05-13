@@ -1,7 +1,11 @@
+import Page8 from "./Components/Page8";
+import Page9 from "./Components/Page9";
+
 function App() {
   return (
     <>
-      <h1>hallo</h1>
+      <Page8 />
+      <Page9 />
     </>
   );
 }
