@@ -1,6 +1,6 @@
 import "../roboto-font.css";
 
-export const Page04 = () => {
+const Page04 = () => {
   return (
     <div className="relative w-full flex flex-col items-start pb-5">
       <div className="flex items-end w-full">
@@ -30,3 +30,5 @@ export const Page04 = () => {
     </div>
   );
 };
+
+export default Page04;
