@@ -2,10 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      main: ["Muli"],
+    extend: {
+      fontFamily: {
+        main: "typeface-muli",
+        base: "typeface-sacramento",
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
