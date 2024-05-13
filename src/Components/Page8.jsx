@@ -51,61 +51,38 @@ const Page8 = () => {
           borderBottom: "2px solid white",
           textDecoration: "underline",
           textUnderlineOffset: "0.5rem",
-        }}
-      >
+        }}>
         Shop <br />
       </a>
       <div style={{ width: "100%" }} className="mx-auto">
-        <h1 className="text-7xl font-italic text-center mb-4 my-8">
-          Plant & Pot
-        </h1>
+        <h1 className="text-7xl font-italic text-center mb-4 my-8">Plant & Pot</h1>
 
-        <p className="text-2xl text-center mb-8 text-attic">
-          Take one of these babies home
-        </p>
+        <p className="text-2xl text-center mb-8 text-attic">Take one of these babies home</p>
         <div className="flex items-center justify-center">
           <div className="container mx-auto max-w-screen-xl">
             <div className="flex flex-wrap">
               <div className="flex flex-wrap md:flex-nowrap">
                 {plants.slice(0, 4).map((plant, index) => (
-                  <div
-                    key={index}
-                    className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110"
-                  >
-                    <img
-                      src={plant.image}
-                      alt={plant.name}
-                      className="w-full h-60 object-cover mb-2"
-                    />
+                  <div key={index} className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110">
+                    <img src={plant.image} alt={plant.name} className="w-full h-60 object-cover mb-2" />
                     <div className="flex items-center justify-between">
                       <a href={plant.link} className="text-xl  text-gray-800">
                         <span style={{ color: "#486138" }}>{plant.name}</span>
                       </a>
-                      <p className="text-lg text-gray-600">
-                        ${plant.price.toFixed(2)}
-                      </p>
+                      <p className="text-lg text-gray-600">${plant.price.toFixed(2)}</p>
                     </div>
                   </div>
                 ))}
               </div>
               <div className="flex flex-wrap md:flex-nowrap">
                 {plants.slice(4).map((plant, index) => (
-                  <div
-                    key={index}
-                    className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110"
-                  >
-                    <img
-                      src={plant.image}
-                      alt={plant.name}
-                      className="w-full h-60 object-cover mb-2"
-                    />
+                  <div key={index} className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110">
+                    <img src={plant.image} alt={plant.name} className="w-full h-60 object-cover mb-2" />
                     <div className="flex items-center justify-between">
                       <a href={plant.link} className="text-xl  text-gray-800">
                         <span style={{ color: "#486138" }}>{plant.name}</span>
                       </a>
-                      <p className="text-lg text-gray-600">
-                        ${plant.price.toFixed(2)}
-                      </p>
+                      <p className="text-lg text-gray-600">${plant.price.toFixed(2)}</p>
                     </div>
                   </div>
                 ))}

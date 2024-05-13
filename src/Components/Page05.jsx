@@ -1,4 +1,5 @@
 import "../roboto-font.css";
+import img05 from "../assets/05.webp";
 
 const Page05 = () => {
   return (
@@ -7,7 +8,7 @@ const Page05 = () => {
       style={{
         width: "100svw",
         height: "80svh",
-        backgroundImage: `url('src/assets/05.webp')`,
+        backgroundImage: `url(${img05})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
