@@ -1,4 +1,3 @@
-import React from "react";
 import second from "../assets/02.webp";
 
 export default function PageTwo() {
@@ -13,8 +12,7 @@ export default function PageTwo() {
           display: "flex",
           alignItems: "flex-end",
           paddingLeft: "20px",
-        }}
-      >
+        }}>
         <h1 className="text-8xl">Monstera</h1>
       </div>
       <div className="grid grid-cols-4 mb-10">
@@ -42,7 +40,7 @@ export default function PageTwo() {
         <div>
           <h2 className=" flex justify-center font-semibold pt-10">FOOD</h2>
           <h3 className="flex justify-center">
-            I'm not greedy, so once
+            I&apos;m not greedy, so once
             <br />
             a month is plentiful and
             <br />
