@@ -14,8 +14,8 @@ function App() {
       <PageOne />
       <PageTwo />
       <Page03 />
-      <Page05 />
       <Page04 />
+      <Page05 />
       <PageSix />
       <ComponentSeven />
       <Page8 />
