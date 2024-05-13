@@ -1,3 +1,6 @@
+import img03 from "../assets/03.webp";
+import "../roboto-font.css";
+
 const Page03 = () => {
   return (
     <div className="relative h-screen">
@@ -18,7 +21,7 @@ const Page03 = () => {
       <div className="absolute w-full h-1/2 bg-custom-gray"></div>
       <div className="absolute w-full h-1/2 bottom-0 bg-white"></div>
       <div className="absolute w-full h-full flex items-center justify-center">
-        <img className="w-full h-auto" src={"src/assets/03.webp"} alt="Centered" />
+        <img className="w-full h-auto" src={img03} alt="Centered" />
         <p className="absolute bottom-14 right-64 text-2xl">@myplantmymuse 📸</p>
       </div>
     </div>
