@@ -9,8 +9,7 @@ const PageSix = () => {
           backgroundPosition: "center",
           backgroundSize: "cover",
           height: "100vh", // Set height to 100vh
-        }}
-      >
+        }}>
         <div className="text-8xl pl-10 font-semibold pt-56 pb-10">
           <h1>
             Bedroom
