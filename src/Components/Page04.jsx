@@ -1,18 +1,18 @@
 import "../roboto-font.css";
 
-export const Page04 = () => {
+const Page04 = () => {
   return (
     <div className="relative w-full flex flex-col items-start pb-5">
       <div className="flex items-end w-full">
         <div className="sm:ml-0 pl-4 lg:pl-32 2xl:pl-64 flex-grow">
-          <h1 className="text-6xl roboto mt-16">Best selling</h1>
-          <h2 className="text-9xl roboto text-custom-green">Indoor plants</h2>
+          <h1 className="text-6xl roboto-regular mt-16">Best selling</h1>
+          <h2 className="text-9xl roboto-regular text-custom-green">Indoor plants</h2>
           <p className="text-3xl roboto-light w-3/4 pt-12">
             Low-maintenance houseplants
             <br /> that are easy to care for
           </p>
         </div>
-        <div className="mt-4 lg:mr-44 bg-custom-dark-green text-white font-bold uppercase px-2 py-1 text-xs sm:text-sm md:text-base">
+        <div className="mt-4 lg:mr-44 roboto-regular bg-custom-dark-green text-white font-bold uppercase px-2 py-1 text-xs sm:text-sm md:text-base">
           <p>Online only</p>
         </div>
       </div>
@@ -30,3 +30,5 @@ export const Page04 = () => {
     </div>
   );
 };
+
+export default Page04;

@@ -53,55 +53,34 @@ const Page8 = () => {
             borderBottom: "2px solid white",
             textDecoration: "underline",
             textUnderlineOffset: "0.5rem",
-          }}
-        >
+          }}>
           Shop <br />
         </a>
-        <p className="text-lg text-center mb-8">
-          Take one of these babies home
-        </p>
+        <p className="text-lg text-center mb-8">Take one of these babies home</p>
         <div className="flex items-center justify-center mx-auto">
           <div className="flex flex-wrap">
             <div className="flex flex-wrap md:flex-nowrap">
               {plants.slice(0, 4).map((plant, index) => (
-                <div
-                  key={index}
-                  className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110"
-                >
-                  <img
-                    src={plant.image}
-                    alt={plant.name}
-                    className="w-full h-40 object-cover mb-2"
-                  />
+                <div key={index} className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110">
+                  <img src={plant.image} alt={plant.name} className="w-full h-40 object-cover mb-2" />
                   <div className="flex items-center justify-between">
                     <a href={plant.link} className="text-sm  text-gray-800">
                       <span style={{ color: "#486138" }}>{plant.name}</span>
                     </a>
-                    <p className="text-xs text-gray-600">
-                      ${plant.price.toFixed(2)}
-                    </p>
+                    <p className="text-xs text-gray-600">${plant.price.toFixed(2)}</p>
                   </div>
                 </div>
               ))}
             </div>
             <div className="flex flex-wrap md:flex-nowrap">
               {plants.slice(4).map((plant, index) => (
-                <div
-                  key={index}
-                  className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110"
-                >
-                  <img
-                    src={plant.image}
-                    alt={plant.name}
-                    className="w-full h-40 object-cover mb-2"
-                  />
+                <div key={index} className="bg-white p-4 m-6 w-full hover:opacity-75 transition duration-300 ease-in-out transform hover:scale-110">
+                  <img src={plant.image} alt={plant.name} className="w-full h-40 object-cover mb-2" />
                   <div className="flex items-center justify-between">
                     <a href={plant.link} className="text-sm  text-gray-800">
                       <span style={{ color: "#486138" }}>{plant.name}</span>
                     </a>
-                    <p className="text-xs text-gray-600">
-                      ${plant.price.toFixed(2)}
-                    </p>
+                    <p className="text-xs text-gray-600">${plant.price.toFixed(2)}</p>
                   </div>
                 </div>
               ))}
