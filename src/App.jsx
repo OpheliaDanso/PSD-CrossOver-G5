@@ -1,8 +1,8 @@
 import React from "react";
-import PageOne from "./components/PageOne";
-import PageTwo from "./components/PageTwo";
-import ComponentSeven from "./components/ComponentSeven";
-import PageSix from "./components/PageSix";
+import PageOne from "./Components/PageOne";
+import PageTwo from "./Components/PageTwo";
+import ComponentSeven from "./Components/ComponentSeven";
+import PageSix from "./Components/Page06";
 import Page8 from "./Components/Page8";
 import Page9 from "./Components/Page9";
 

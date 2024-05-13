@@ -56,7 +56,9 @@ const Page8 = () => {
         Shop <br />
       </a>
       <div style={{ width: "100%" }} className="mx-auto">
-        <h1 className="text-7xl font-italic text-center mb-4">Plant & Pot</h1>
+        <h1 className="text-7xl font-italic text-center mb-4 my-8">
+          Plant & Pot
+        </h1>
 
         <p className="text-2xl text-center mb-8 text-attic">
           Take one of these babies home

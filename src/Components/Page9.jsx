@@ -10,7 +10,7 @@ function Page9() {
       }}
       className="h-screen flex"
     >
-      <div className="m-auto w-1/2 text-right ml-16 text-white">
+      <div className="m-auto w-1/2 text-right ml-16 text-white m-9">
         <h1 className="text-8xl font-attic mb-4">
           Life is too short,
           <br />
