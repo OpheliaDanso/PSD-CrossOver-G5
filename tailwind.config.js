@@ -2,10 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      main: ["Muli"],
+    extend: {
+      fontFamily: {
+        main: "typeface-muli",
+        base: "typeface-sacramento",
+      },
+      colors: { "custom-dark-green": "#366032", "custom-green": "#789f10", "custom-black": "#28362C" },
     },
-    extend: {},
   },
   plugins: [],
 };
