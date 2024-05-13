@@ -10,10 +10,9 @@ const Page05 = () => {
         backgroundImage: `url('src/assets/05.webp')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-      }}
-    >
+      }}>
       <div className="absolute top-20 sm:left-20 left-4 flex flex-col items-start mt-10 sm:pt-10 sm:pl-4 pt-0 pl-0">
-        <h1 className="text-9xl roboto-medium sm:text-custom-black md:text-custom-black text-white">
+        <h1 className="text-9xl roboto-regular sm:text-custom-black md:text-custom-black text-white">
           Indoor
           <br /> plants
         </h1>

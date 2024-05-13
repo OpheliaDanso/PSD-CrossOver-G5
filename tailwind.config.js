@@ -7,7 +7,7 @@ export default {
         main: "typeface-muli",
         base: "typeface-sacramento",
       },
-      colors: { "custom-dark-green": "#366032", "custom-green": "#789f10", "custom-black": "#28362C" },
+      colors: { "custom-dark-green": "#366032", "custom-green": "#789f10", "custom-black": "#28362C", "custom-gray": "#F1F3F2" },
     },
   },
   plugins: [],
